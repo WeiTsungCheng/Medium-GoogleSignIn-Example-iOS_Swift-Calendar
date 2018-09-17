@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7776F9DD71555F439E8F1ED9 /* Pods_GoogleSignIn_Example_iOS_Swift_Calendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F1647DA9572D5D958217CC /* Pods_GoogleSignIn_Example_iOS_Swift_Calendar.framework */; };
+		8D44416621501750001910A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D44416521501750001910A2 /* AppDelegate.swift */; };
+		8D44416821501750001910A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D44416721501750001910A2 /* ViewController.swift */; };
+		8D44416B21501750001910A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D44416921501750001910A2 /* Main.storyboard */; };
+		8D44416D21501751001910A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D44416C21501751001910A2 /* Assets.xcassets */; };
+		8D44417021501751001910A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D44416E21501751001910A2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48B5986192093FEA94C79AF4 /* Pods-GoogleSignIn-Example-iOS_Swift_Calendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSignIn-Example-iOS_Swift_Calendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSignIn-Example-iOS_Swift_Calendar/Pods-GoogleSignIn-Example-iOS_Swift_Calendar.debug.xcconfig"; sourceTree = "<group>"; };
+		8D44416221501750001910A2 /* GoogleSignIn-Example-iOS_Swift_Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoogleSignIn-Example-iOS_Swift_Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D44416521501750001910A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D44416721501750001910A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D44416A21501750001910A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D44416C21501751001910A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D44416F21501751001910A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D44417121501751001910A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D44417721501B68001910A2 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		A640780CDD40301514281830 /* Pods-GoogleSignIn-Example-iOS_Swift_Calendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSignIn-Example-iOS_Swift_Calendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSignIn-Example-iOS_Swift_Calendar/Pods-GoogleSignIn-Example-iOS_Swift_Calendar.release.xcconfig"; sourceTree = "<group>"; };
+		C3F1647DA9572D5D958217CC /* Pods_GoogleSignIn_Example_iOS_Swift_Calendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleSignIn_Example_iOS_Swift_Calendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D44415F21501750001910A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7776F9DD71555F439E8F1ED9 /* Pods_GoogleSignIn_Example_iOS_Swift_Calendar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ED54668E6B0EC210F6C69C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3F1647DA9572D5D958217CC /* Pods_GoogleSignIn_Example_iOS_Swift_Calendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D44415921501750001910A2 = {
+			isa = PBXGroup;
+			children = (
+				8D44416421501750001910A2 /* GoogleSignIn-Example-iOS_Swift_Calendar */,
+				8D44416321501750001910A2 /* Products */,
+				DAAC8517775FF30AE28EAD4C /* Pods */,
+				6ED54668E6B0EC210F6C69C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D44416321501750001910A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D44416221501750001910A2 /* GoogleSignIn-Example-iOS_Swift_Calendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D44416421501750001910A2 /* GoogleSignIn-Example-iOS_Swift_Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				8D44416521501750001910A2 /* AppDelegate.swift */,
+				8D44416721501750001910A2 /* ViewController.swift */,
+				8D44417721501B68001910A2 /* Header.h */,
+				8D44416921501750001910A2 /* Main.storyboard */,
+				8D44416C21501751001910A2 /* Assets.xcassets */,
+				8D44416E21501751001910A2 /* LaunchScreen.storyboard */,
+				8D44417121501751001910A2 /* Info.plist */,
+			);
+			path = "GoogleSignIn-Example-iOS_Swift_Calendar";
+			sourceTree = "<group>";
+		};
+		DAAC8517775FF30AE28EAD4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48B5986192093FEA94C79AF4 /* Pods-GoogleSignIn-Example-iOS_Swift_Calendar.debug.xcconfig */,
+				A640780CDD40301514281830 /* Pods-GoogleSignIn-Example-iOS_Swift_Calendar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D44416121501750001910A2 /* GoogleSignIn-Example-iOS_Swift_Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D44417421501751001910A2 /* Build configuration list for PBXNativeTarget "GoogleSignIn-Example-iOS_Swift_Calendar" */;
+			buildPhases = (
+				946B0082E5ECBEAEEE2BD35E /* [CP] Check Pods Manifest.lock */,
+				8D44415E21501750001910A2 /* Sources */,
+				8D44415F21501750001910A2 /* Frameworks */,
+				8D44416021501750001910A2 /* Resources */,
+				AB8EE6DB8AB7B21DACBAD897 /* [CP] Embed Pods Frameworks */,
+				5446740E8C59D762413C0107 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GoogleSignIn-Example-iOS_Swift_Calendar";
+			productName = "GoogleSignIn-Example-iOS_Swift_Calendar";
+			productReference = 8D44416221501750001910A2 /* GoogleSignIn-Example-iOS_Swift_Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D44415A21501750001910A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "wei-tsung-cheng";
+				TargetAttributes = {
+					8D44416121501750001910A2 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 8D44415D21501750001910A2 /* Build configuration list for PBXProject "GoogleSignIn-Example-iOS_Swift_Calendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D44415921501750001910A2;
+			productRefGroup = 8D44416321501750001910A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D44416121501750001910A2 /* GoogleSignIn-Example-iOS_Swift_Calendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D44416021501750001910A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D44417021501751001910A2 /* LaunchScreen.storyboard in Resources */,
+				8D44416D21501751001910A2 /* Assets.xcassets in Resources */,
+				8D44416B21501750001910A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5446740E8C59D762413C0107 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSignIn-Example-iOS_Swift_Calendar/Pods-GoogleSignIn-Example-iOS_Swift_Calendar-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSignIn-Example-iOS_Swift_Calendar/Pods-GoogleSignIn-Example-iOS_Swift_Calendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		946B0082E5ECBEAEEE2BD35E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleSignIn-Example-iOS_Swift_Calendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB8EE6DB8AB7B21DACBAD897 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSignIn-Example-iOS_Swift_Calendar/Pods-GoogleSignIn-Example-iOS_Swift_Calendar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSignIn-Example-iOS_Swift_Calendar/Pods-GoogleSignIn-Example-iOS_Swift_Calendar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D44415E21501750001910A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D44416821501750001910A2 /* ViewController.swift in Sources */,
+				8D44416621501750001910A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D44416921501750001910A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D44416A21501750001910A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D44416E21501751001910A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D44416F21501751001910A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D44417221501751001910A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D44417321501751001910A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D44417521501751001910A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B5986192093FEA94C79AF4 /* Pods-GoogleSignIn-Example-iOS_Swift_Calendar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA9F856YHB;
+				INFOPLIST_FILE = "GoogleSignIn-Example-iOS_Swift_Calendar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weiTsung-GoogleSignIn-Calendar-com.weiTsung-GoogleSignIn-Calendar-com.weiTsung-GoogleSignIn-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhengweizong/Desktop/GoogleSignIn-Example-iOS_Swift_Calendar/GoogleSignIn-Example-iOS_Swift_Calendar/Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D44417621501751001910A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A640780CDD40301514281830 /* Pods-GoogleSignIn-Example-iOS_Swift_Calendar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA9F856YHB;
+				INFOPLIST_FILE = "GoogleSignIn-Example-iOS_Swift_Calendar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weiTsung-GoogleSignIn-Calendar-com.weiTsung-GoogleSignIn-Calendar-com.weiTsung-GoogleSignIn-Calendar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/zhengweizong/Desktop/GoogleSignIn-Example-iOS_Swift_Calendar/GoogleSignIn-Example-iOS_Swift_Calendar/Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D44415D21501750001910A2 /* Build configuration list for PBXProject "GoogleSignIn-Example-iOS_Swift_Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D44417221501751001910A2 /* Debug */,
+				8D44417321501751001910A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D44417421501751001910A2 /* Build configuration list for PBXNativeTarget "GoogleSignIn-Example-iOS_Swift_Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D44417521501751001910A2 /* Debug */,
+				8D44417621501751001910A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D44415A21501750001910A2 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_GoogleSignIn_Example_iOS_Swift_Calendar {
+  umbrella header "Pods-GoogleSignIn-Example-iOS_Swift_Calendar-umbrella.h"
+
+  export *
+  module * { export * }
+}
